@@ -64,3 +64,16 @@ border-radius: 2rem;
     margin: 0;
     padding: 0;
 }
+.kategori{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 26px 426px 26px 426px;
+
+
+}
+.kategori div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
