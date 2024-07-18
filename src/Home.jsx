@@ -6,6 +6,9 @@ import icon3 from "../Assets/Iteration-2-aseets/icons/3.svg"
 import icon4 from "../Assets/Iteration-2-aseets/icons/4.svg"
 import icon5 from "../Assets/Iteration-2-aseets/icons/5.svg"
 import icon6 from "../Assets/Iteration-2-aseets/icons/6.svg"
+import food1 from "../Assets/Iteration-2-aseets/pictures/food-1.png"
+import food2 from "../Assets/Iteration-2-aseets/pictures/food-2.png"
+import food3 from "../Assets/Iteration-2-aseets/pictures/food-3.png"
 export const Home = () => {
   return (
       <div className="home">
@@ -119,7 +122,39 @@ export const Home = () => {
 
            </div>
            <div className="kartlar1">
-
+            <div className="photos"> 
+              <div> <img src= {food1}/> </div>
+              <div>
+                <p><strong>Terminal Pizza</strong></p>
+              </div>
+              <div className="puanlama">
+                <p>4.9</p>
+                <p>(200)</p>
+                <p><strong>60TL</strong></p>
+              </div>
+            </div>
+            <div className="photos"> 
+              <div> <img src= {food2}/> </div>
+              <div>
+                <p><strong>Position Absolute Acı Pizza</strong></p>
+              </div>
+              <div className="puanlama">
+                <p>4.9</p>
+                <p>(200)</p>
+                <p><strong>60TL</strong></p>
+              </div>
+            </div>
+            <div className="photos"> 
+              <div> <img src= {food3}/> </div>
+              <div>
+                <p><strong>useEFFECT Tavuklu Burger</strong></p>
+              </div>
+              <div className="puanlama">
+                <p>4.9</p>
+                <p>(200)</p>
+                <p><strong>60TL</strong></p>
+              </div>
+            </div>
            </div>
       </div>
   )
