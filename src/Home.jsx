@@ -25,40 +25,62 @@ export const Home = () => {
          
          </div>
         </div>
+
         <div className="kategori">
 
          <div>
           <img src= {icon1} />
-         <p>YENİ!Kore</p>
+          <p>YENİ!Kore</p>
          </div> 
 
           <div>
             <img src= {icon2} />
-          <p>Pizza</p>
+            <p>Pizza</p>
           </div>
 
           <div>
             <img src= {icon3} />
-          <p>Burger</p>
+            <p>Burger</p>
           </div>
 
           <div>
             <img src= {icon4} />
-          <p>Kızartmalar</p>
+            <p>Kızartmalar</p>
           </div>
 
           <div>
             <img src= {icon5} />
-          <p>Fast Food</p>
+            <p>Fast Food</p>
           </div>
 
           <div>
             <img src= {icon6} />
-          <p>Gazlı İçecekler</p>
+            <p>Gazlı İçecekler</p>
           </div>
 
            </div>
-          
+          <div className="kartlar">
+
+              <div className="banner1">
+              <p className="ozel"> Özel <br/>Lezzetus </p>
+              <p className="Aci">Position:Absolute Acı Burger</p>
+              <button className="goEat"> Sipariş Ver </button>
+              
+              </div>
+              <div className="rightBanner">
+
+              <div className="banner2"> 
+                <p className="Hack">Hackathlon Burger Menü</p>
+                <button className="goEat1">Sipariş Ver</button>
+              </div>
+
+              <div className="banner3"> 
+                <p className="Npm">Çoooook <span className="ayriRenk">hızlı <br/>npm gibi kurye</span>  </p>
+                <button className="goEat2">Sipariş Ver</button>
+
+              </div>
+               </div>
+          </div>
       </div>
   )
 }
