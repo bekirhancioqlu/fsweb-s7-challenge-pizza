@@ -81,6 +81,46 @@ export const Home = () => {
               </div>
                </div>
           </div>
+          <div>
+            <p className="kisim">en çok paketlenen menüler</p>
+            <p className="aciklama1">Acıktıran Kodlara Doyuran Lezzetler</p></div>
+
+            <div className="kategori2">
+
+         <button>
+          <img src= {icon1} />
+          <p>Ramen</p>
+         </button> 
+
+          <button>
+            <img src= {icon2} />
+            <p>Pizza</p>
+          </button>
+
+          <button>
+            <img src= {icon3} />
+            <p>Burger</p>
+          </button>
+
+          <button>
+            <img src= {icon4} />
+            <p>French fries</p>
+          </button>
+
+          <button>
+            <img src= {icon5} />
+            <p>Fast Food</p>
+          </button>
+
+          <button>
+            <img src= {icon6} />
+            <p>Soft Drinks </p>
+          </button>
+
+           </div>
+           <div className="kartlar1">
+
+           </div>
       </div>
   )
 }

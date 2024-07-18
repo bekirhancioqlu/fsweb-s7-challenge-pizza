@@ -270,7 +270,61 @@ color: red;
     color: red;
 
 }
+
 .ayriRenk{
     display: inline;
     color: #292929;
+}
+
+.kisim{
+
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+
+    line-height: 44.27px;
+    text-align: center;
+    color: red;
+
+}
+
+.aciklama1{
+
+    font-family: "Barlow", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 56.2px;
+    text-align: center;
+    
+
+}
+
+.kategori2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 26px 426px 26px 426px;
+
+
+}
+.kategori2 button {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 146.72px;
+    height: 66px;
+    padding: 12px 20px;
+    border-radius: 2rem;
+    align-items: center;
+    border-color: white;
+    box-shadow: none;
+    
+    
+}
+
+.kategori2 button:hover {
+    background-color: #292929;
+    
 }
